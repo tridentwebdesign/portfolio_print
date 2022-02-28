@@ -1,0 +1,76 @@
+:root {
+    font-size: 12q;
+}
+
+body {
+    width: 190mm;
+}
+
+header {
+    display: none;
+}
+
+.wrapper {
+    display: block;
+    column-gap: 0;
+}
+
+.hero {
+    height: 35mm;
+    margin-bottom: 8mm;
+}
+
+section {
+    margin-bottom: 5mm;
+}
+
+h2 {
+    margin-bottom: 2mm;
+    font-size: 18q;
+}
+
+h3 {
+    margin: 0 0 2mm;
+}
+
+h2 + p {
+    margin: 0 0 2mm;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+}
+
+.section-content {
+    margin-bottom: 5mm;
+}
+
+.works-img {
+    min-width: 100%;
+}
+
+.summary,
+.wireflame,
+.document,
+.tool {
+    flex-basis: 49%;
+}
+
+.wireflame-img {
+    overflow: hidden;
+}
+
+.wireflame-img img {
+    object-fit: cover;
+    height: 62mm;
+    width: 100%;
+    object-position: 20% 100%;
+
+}
+
+.works-link,
+footer {
+    display: none;
+}
