@@ -43,6 +43,12 @@ h2 + p {
     column-gap: 2%;
 }
 
+.outline,
+.works,
+.finish {
+    width: 100%;
+}
+
 .section-content {
     margin-bottom: 5mm;
 }
