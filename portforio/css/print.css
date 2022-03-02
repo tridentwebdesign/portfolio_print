@@ -2,8 +2,13 @@
     font-size: 12q;
 }
 
+p:last-child{
+    margin-bottom: 0;
+}
+
 body {
     width: 190mm;
+    margin: auto;
 }
 
 header {
@@ -21,7 +26,11 @@ header {
 }
 
 section {
-    margin-bottom: 5mm;
+    margin-bottom: 4mm;
+}
+
+section:last-child{
+    margin-bottom: 0;;
 }
 
 h2 {
@@ -70,7 +79,7 @@ h2 + p {
 
 .wireflame-img img {
     object-fit: cover;
-    height: 62mm;
+    height: 40mm;
     width: 100%;
     object-position: 20% 100%;
 
